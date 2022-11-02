@@ -1,3 +1,4 @@
+require 'pry'
 class Song
 
   attr_accessor :name, :album, :id
@@ -40,3 +41,5 @@ class Song
   end
 
 end
+
+binding.pry
